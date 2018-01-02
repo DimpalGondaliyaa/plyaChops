@@ -1,0 +1,49 @@
+/* global style sheet */
+
+/* Font- Family
+font-family: 'Poiret One', cursive;
+font-family: 'Gentium Basic', serif;
+font-family: 'Molengo', sans-serif;
+font-family: 'Tenor Sans', sans-serif;
+*/
+body{
+	font-family: 'Tenor Sans', sans-serif;
+    background: #eee;
+}
+nav.change-nav{
+    background: #33438C !important;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 3px 7px #0000009e;
+    border-bottom: 2px solid #fdfdfd36;
+}
+.nav-wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+    color: #FFF;
+}
+.admin-menu li a{
+	color: #fff;
+}
+
+.main{
+    min-height: 400px;
+    background: #eee;
+    height: 100vh;
+}
+.a.logout {
+    font-size: 20px;
+}
+
+
+
+
+/*Footer*/
+.footer {
+    background: #33438c;
+    height: 5px;
+    position: relative;
+    bottom: 0;
+}

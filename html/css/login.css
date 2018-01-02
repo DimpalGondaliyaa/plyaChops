@@ -1,0 +1,62 @@
+.card-panel.login-card {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: rgba(255,255,255,0.5);
+}
+.login-row {
+    overflow: hidden;
+    background: #ffffffd1;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 25px;
+    position: relative;
+    right: -15%;
+    top: 200px;
+}
+.admin-log-title {
+    text-align: center;
+    font-size: 27px;
+    position: relative;
+    color: #002d48;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    width: auto;
+    background: rgba(0,0,0,0.5);
+}
+label.lab {
+    color: #332727;
+}
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label
+{
+    color: #332727 !important;
+}
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly])
+{
+        border-bottom: 1px solid #332727;
+    -webkit-box-shadow: 0 1px 0 0 #332727;
+    
+}
+label.lab: focus {
+    color: #332727 !important;
+}
+.log-div {
+    text-align:  center;
+    /* background:  red; */
+}
+
+.log-div a {
+    background: #002b46;
+    border: 1px solid #012840;
+}
+a.waves-effect.waves-light.btn.loginbtn:hover {
+    background: transparent !important;
+    border: 1px solid #012840;
+    color: #002846;
+    font-weight: 500;
+}

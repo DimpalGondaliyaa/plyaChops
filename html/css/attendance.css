@@ -1,0 +1,14 @@
+
+.attendance-area {
+    background: #eee;
+    padding: 25px;
+    min-height: 400px;
+}
+.atendance_title h5 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+.attendance-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}

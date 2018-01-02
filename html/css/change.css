@@ -1,0 +1,160 @@
+
+.card-panel.chack-card {
+   width: 40%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.admin-chack-title {
+      text-align: center;
+    font-size: 27px;
+    position: relative;
+    top: 65px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+/*.change-nav
+{
+    background-color: rgba(255,255,255,0.8) !important;
+    height: 100px;
+}
+*/
+#menu-uL
+{
+     line-height: 6;
+}
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+}
+/*a.menu-uL {
+    color: #2d2727;
+    line-height: 5;
+    font-size: 19px;
+    text-transform:  capitalize;
+    /* border: 1px solid; */
+}*/
+a.waves-effect.waves-light.btn.chack {
+    background:  black;
+    text-align:  center;
+    text-transform: capitalize;
+}
+.chack-div {
+    width: 70%;
+    margin:  0 auto;
+}
+.row.chack-row {
+    position:  relative;
+    top: 150px;
+}
+/*------------register css---------*/
+.admin-log-title {
+    text-align:  center;
+    font-style:  oblique;
+    text-transform:  capitalize;
+    font-size: 22px;
+    text-decoration: underline;
+}
+/*-----------------auto generate password-----------*/
+button.form-control {
+  background: #f7f7f7 none repeat scroll 0 0;
+  border-color: #ccc;
+  box-shadow: 0 1px 0 #ccc;
+  color: #555;
+  vertical-align: top;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  height: 28px;
+  line-height: 26px;
+  margin: 0;
+  padding: 0 10px 1px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+input.form-control {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07) inset;
+  color: #32373c;
+  outline: 0 none;
+  transition: border-color 50ms ease-in-out 0s;
+  margin: 1px;
+  padding: 3px 5px;
+  border-radius: 0;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: inherit;
+  box-sizing: border-box;
+  color: #444;
+  font-family: "Open Sans",sans-serif;
+  line-height: 1.4em;
+  width: 80% !important;
+      height: 28px !important;
+          margin: 0 0 19px 0 !important;
+}
+/*-----------------------varify css-----------------*/
+
+
+
+
+
+
+
+
+
+/*=============== admin menu area ==================*/
+
+.submenu-area {
+    position: relative;
+    overflow: hidden;
+    padding: 25px;
+    margin-top: 200px;
+}
+.menuBox {
+    background: #ffffffd1;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 5px solid #33438c7d;
+    height: 150px;
+    border-radius: 3px;
+    -webkit-transitiona: all 0.2s ease-in-out;
+    -moz-transitiona: all 0.2s ease-in-out;
+    -o-transitiona: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 2px 5px #00000087;
+}
+
+
+}
+.menuBox:hover {
+    cursor: pointer;
+    background: #33438c;
+    padding: 15px;
+    margin-bottom: 25px;
+    text-align: center;
+    border: 5px solid #fefeff7d;
+    height: 150px;
+    border-radius: 3px;
+    color: #ffffffc7;
+    -webkit-transitiona: all 0.2s ease-in-out;
+    -moz-transitiona: all 0.2s ease-in-out;
+    -o-transitiona: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.menuData h5 {
+    line-height: 75px;
+}
+.submenu-box {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+

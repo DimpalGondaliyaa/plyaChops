@@ -1,0 +1,62 @@
+.userparall
+{
+	height: 900px;
+	    background: rgba(0,0,0,0.5);
+}
+.card-panel.user-card {
+    width:  90%;
+    margin:  0 auto;
+}
+.user-title {
+    color:  #fff;
+    font-size:  33px;
+    text-transform:  capitalize;
+    text-align:  center;
+    position:  relative;
+    /* top: 10px; */
+    bottom:  18px;
+   
+    text-decoration: underline;
+}
+a.editt.waves-effect.waves-light.btn {
+    width:  20px;
+    height: 60px;
+    border-radius: 135px;
+    text-align:  center;
+}
+
+i.material-icons.mainicon {
+    /* text-align:  center; */
+    /* width: 100%; */
+}
+
+a.editt.waves-effect.waves-light.btn i {
+    /* float:  right; */
+    text-align:  center;
+    position:  relative;
+    right: 13px;
+    top: 10px;
+    font-size: 26px;
+}
+.back {
+    width: 95%;
+    padding-top: 37px;
+    text-align:  right;
+}
+
+a.btn.go-btn {
+    background: #040404d1;
+    border: 1px solid #fff;
+}
+a.btn.go-btn:hover {
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+}
+.admin-log-title {
+    text-align:  center;
+    font-size:  23px;
+    text-transform:  capitalize;
+    font-style:  italic;
+    text-decoration:  underline;
+}

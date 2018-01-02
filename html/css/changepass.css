@@ -1,0 +1,29 @@
+.card-panel.login-card {
+    width:  50%;
+    margin:  0 auto;
+    margin-top: 100px;
+}
+.admin-log-title {
+      text-align: center;
+    font-size: 27px;
+    position: relative;
+    top: 65px;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 800px;
+    background: rgba(0,0,0,0.5);
+}
+a.waves-effect.waves-light.btn.loginbtn {
+    background:  black;
+    text-align:  center;
+    text-transform: capitalize;
+}
+.log-div {
+    width: 40%;
+    margin:  0 auto;
+}
