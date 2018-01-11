@@ -1,0 +1,550 @@
+/*---------------------------left side friend list------------*/
+.add-btn {
+    color: #394b65b5;
+    border-radius: 20px;
+    background: linear-gradient(3deg, #cecdcd,#dfdfdf82);
+    border: 1px solid #c5c5c5;
+    position: relative;
+    margin-top: 10px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    box-shadow: none;
+    padding-right: 35px;
+
+}
+.add-btn:hover {
+    color: #eeeeee;
+    border-radius: 20px;
+    background: #677487;
+    border: 1px solid #696969;
+}
+/*.add-btn:hover {
+    color: #fff;
+    background: #2196f3;
+}*/
+.post-area {
+    background: transparent;
+}
+img.friend-img {
+       width: 47px;
+    border-radius: 67px;
+    background: #a9a9a9ba;
+    height: 48px;
+}
+span.friend-name {
+    font-size: 18px;
+    text-transform:  capitalize;
+}
+
+/*---------------------------left side friend list------------*/
+.add-btn {
+    color: grey;
+    border-radius: 20px;
+    background: transparent;
+    border: 1px solid darkgray;
+    position: relative;
+/*    top: 10px;*/
+    box-shadow: none;
+}
+.add-btn:hover {
+    color: #fff;
+    background: #2196f3;
+}
+.post-area {
+/*    background: #fff;*/
+}
+img.friend-img {
+       width: 47px;
+    border-radius: 67px;
+    background: #a9a9a9ba;
+    height: 48px;
+}
+span.friend-name {
+    font-size: 18px;
+    text-transform:  capitalize;
+}
+
+/*---------------------profile header css-----------**/
+.head-parall
+{
+    position: relative;
+    overflow: hidden;
+  background: #ffffffad;
+    height: 450px;
+}
+
+/*css for rating*/
+
+
+
+
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+[type="radio"]:not(:checked)+label:before, [type="radio"]:not(:checked)+label:after {
+     border: none;
+}
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:after {
+    background-color: transparent;
+}
+[type="radio"]:checked+label:after, [type="radio"].with-gap:checked+label:before, [type="radio"].with-gap:checked+label:after {
+    border:none;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/* Modified from: https://github.com/mukulkant/Star-rating-using-pure-css */
+
+
+
+/* Heart icon from Adam Whitcroft's batch 
+http://adamwhitcroft.com/batch/  */
+textarea.materialize-textarea {
+    overflow-y: hidden;
+    padding: .8rem 0 1.6rem 0;
+    resize: none;
+    min-height: 3rem;
+    border: 1px solid #8080801c;
+    padding: 10px;
+}
+.comm-btn {
+    font-size: 20px;
+    color: #fff !important;
+    position: relative;
+    bottom: 6px;
+    color: #fff;
+}
+.comm-col {
+    text-align:  center;
+    position:  relative;
+    top: 13px;
+}
+
+.postcomm-btn {
+    background: #0089ec;
+}
+/*-----------comment btn css-----------*/
+.comment-btn {
+    text-align:  center;
+    position:  relative;
+    top: 27px;
+    /* background:  red; */
+}
+
+.comment-btn a {
+    background: #0089ec;
+}
+/*body
+
+{
+         background: #ededed;
+  
+        -webkit-perspective: 1000;
+        -webkit-backface-visibility: hidden;      
+       
+}
+
+*/
+
+#circle
+{
+       width: 60px;
+       height: 60px;
+    margin-top: 150px;  
+      -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    background-color: #212121;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    position: relative;
+
+}
+
+
+
+
+
+
+@-webkit-keyframes pulse 
+{
+  from {
+    -webkit-transform: scale(1.0);
+    opacity: 1.0;
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    opacity: 1.0;
+  }
+  to { 
+    -webkit-transform: scale(1.0);
+    opacity: 1.0;
+  }
+}
+
+
+
+
+#output
+
+{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12pt;
+        font-weight: bold;
+        color: #1a1a1a;
+        margin-top:10px;
+          
+  }
+
+
+#descrip
+
+{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        color: #242424;
+        margin-top:8px;
+          
+  }
+
+
+#HjelmPatrik
+
+{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        color: #1f1f1f;
+        margin-top:200px;
+        gutter: 10px;
+        text-decoration: none;
+        opacity: 0.7;       
+}
+
+#HjelmPatrik:hover
+{
+        opacity: 0.9;
+}
+
+/*ProfileDashboard Global Css*/
+body{
+	background: #eee;
+	height: 100vh;
+}
+
+.max-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/*Profile backgrounf images*/
+.parallax-container{
+	z-index: 0;
+}
+.profileBackground img {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    position: relative;
+}
+/*img.responsive-img.profile_photo {    
+    display: block;
+    bottom: 50px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 153px;
+
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    object-fit: cover;
+    border: 2px solid #002a43;
+    padding: 5px;
+    box-shadow: 0px 2px 5px #0000006b;
+<<<<<<< HEAD
+}*/
+
+.post_img img {
+    height:  auto;
+    width: 100%;
+}
+h4.about-name-title {
+    text-transform: capitalize;
+}
+.statusPostBtn:hover {
+    color: black;
+    background-color: #8080802e !important;
+}
+.mediaPostBtn:hover
+{
+ color: black;
+    background-color: #8080802e !important;
+}
+.locationPostBtn:hover
+{
+    color: black;
+    background-color: #8080802e !important;
+}
+button#postPOSTButton:hover {
+    background: #2898f4ad !important;
+}
+/*.profileDetails-area {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #ffffff !important;
+    position: relative !important;
+    margin-top: 25px;
+    padding: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}*/
+.totalData ul li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+.col.s12.m12.profile_quickLinks {
+    padding-left: 0;
+}
+.profile_quickLinks ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.profile_quickLinks ul li a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff70;
+}
+
+.profile_quickLinks ul li a:hover,.profile_quickLinks ul li a:focus,.profile_quickLinks ul li a.active {
+    color: #ffffffbf;
+}
+
+
+/*RecentPost area*/
+.postBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+    margin-bottom: 25px;
+}
+.postProfile {
+    position: relative;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.postProfile img{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: auto;
+}
+.postContent {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: justify;
+}
+.comm-btn
+{
+      position: relative;
+    cursor: pointer;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background: rgb(175, 177, 179);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 37px;
+    z-index: 10;
+}
+div#coomm-div {
+    position: relative;
+    top: 8px;
+}
+.comm-btn{
+  color: blue;
+}
+.recentPostBox {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 1px 3px #0000004f;
+    position: relative;
+}
+/*.recentPostBox {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 0px 1px 3px #0000004f;
+    position: relative;
+}*/
+.col.s6.m4.recentBox img {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+
+    min-height: 75px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: 1px solid #00000052;
+    box-shadow: 2px 3px 3px #00000059;
+
+}
+.title h5 {
+    border-bottom: 1px solid #1a405666;
+    padding-bottom: 15px;
+    color: #f49839;
+    margin-bottom: 15px;
+    text-shadow: 0px 1px 1px #00000080;
+}
+/*.title h5{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: #002a43;
+    margin-bottom: 15px;
+}*/
+.commentsBox {
+  	padding-top: 15px;
+}
+.postProfile.row span {
+    color: #002a43;
+    text-transform: capitalize;
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    font-size: 16px;
+}
+/*shareLink*/
+.postProfile.row span.shareLink {
+    color: #aaa;
+    position: relative;
+    padding: 5px;
+}
+.postProfile.row span.SharedLink {
+    color: #0070ff;
+}
+
+#postStory
+{
+    background: #fff;
+}
+
+
+/*========== Post story ============*/
+
+.comm-title {
+    font-size: 18px;
+    text-transform:  capitalize;
+    color: #ffffff;
+}
+
+.postStoryBox {
+    /*background: linear-gradient(130deg,#dfdfdf66,#2a4d61);*/
+    background: #fff;
+    box-shadow: 0px 1px 3px #0000004f;
+    margin-bottom: 25px;
+    padding: 25px;
+    position: relative;
+}
+
+/*
+.postStoryBox {
+    background: #fff;
+    margin-bottom: 25px;
+    padding: 25px;
+    position: relative;
+}*/
+
+.serveybox{
+        background: #2196f36e;
+    margin-top: 20px;
+    
+    margin-bottom: 25px;
+    padding: 25px;
+    position: relative;
+}
+
+.postStory {
+    position: relative;
+    overflow: hidden;
+}
+.attachmentBox {
+    position: relative;
+    float: left;
+    padding: 0px 10px;
+}
+ul.addAttachment {
+    display: inline;
+}
+i.fa.fa-map-marker {
+    padding: 10px;
+    background: #eee;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 54px;
+    box-shadow: 0px 1px 3px #00000040;
+}
+.attachmentBox ul li{
+	padding: 10px;
+    background: #eee;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 54px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 0px 1px 3px #00000040;	
+}
+.postBtns ul li{ display: inline-block; }
+.postMedia{
+	overflow: hidden;
+	position: relative;
+}
+.postLocation{
+	overflow: hidden;
+	position: relative;
+}
+/*like btn*/

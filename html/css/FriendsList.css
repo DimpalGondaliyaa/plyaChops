@@ -1,0 +1,84 @@
+img.friend-pic {
+        width: 100%;
+}
+
+.main {
+      max-width:1600px;
+    margin:  0 auto;
+}
+.circlu img {
+    width:  100px;
+    border-radius:  50px;
+    height:  99px;
+    position:  relative;
+    bottom:  39px;
+    /* text-align:  center; */
+}
+
+.circlu {
+    width: 30%;
+    margin:  0 auto;
+}
+.friend-box {
+    background: #fff;
+    min-height: 400px;
+}
+.about-friend {
+   padding-top: 0px;
+    border-bottom: 1px solid #8080804a;
+    position: relative;
+    bottom: 22px;
+}
+.friend-name {
+    text-align:  center;
+    font-size:  20px;
+    position:  relative;
+    text-transform:  capitalize;
+    font-weight:  500;
+}
+
+.friend-place {
+    text-align:  center;
+    font-size:  13px;
+        padding-bottom: 20px;
+    text-transform:  capitalize;
+}
+.post-box {
+    text-align:  center;
+    position:  relative;
+    padding-top:  12px;
+}
+
+.friend-post {
+    font-size: 16px;
+}
+
+.friend-post-title {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform:  capitalize;
+}
+.valign-wrapper {
+   
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    /* display: flex; */
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 35%;
+    margin: 0 auto;
+        padding-top: 10px;
+}
+span.count {
+       font-size: 17px;
+}
+.post-col {
+    text-align:  center;
+    margin-top: 0px;
+}
+.post-col i {
+    font-size:  38px;
+}

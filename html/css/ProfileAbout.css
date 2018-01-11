@@ -1,0 +1,269 @@
+.head-parall
+{
+    position: relative;
+    overflow: hidden;
+  background: #ffffffad;
+    height: 450px;
+}
+
+
+/**-----------post edit delete css--------*/
+.fixed-action-btn {
+     position: relative; 
+    right: 0px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+.btn-floating.btn-large {
+    float: right;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: 16px;
+}
+.update-btn {
+    width: 13%;
+    margin:  0 auto;
+    position:  relative;
+    top: 36px;
+}
+/*#persona
+{
+    z-index: 1005;
+    display: block;
+    opacity: 1;
+    transform: scaleX(1);
+    top: 73%;
+}*/
+
+/*ProfileDashboard Global Css*/
+body{
+	background: #eee;
+	height: 100vh;
+}
+
+.max-width {
+    max-width: 1280px;
+    margin: 0 auto;
+   
+}
+
+/*Profile backgrounf images*/
+
+.up-title
+{
+    text-transform: capitalize;
+    text-align: center;
+}
+.parallax-container{
+	z-index: 0;
+}
+.profileBackground img {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    position: relative;
+}
+/*img.responsive-img.profile_photo {
+ display: block;
+    top: 22px;
+    position: relative;
+    height: 218px;
+    width: 212px;
+    border-radius: 153px;
+    background: #fff;
+    width: -40px !important;
+    min-width: 0px;
+    object-fit: contain; 
+}*/
+.edit-pro-btn {
+    float: right;
+    height: 35px;
+    border-radius: 13px;
+    background: #eee;
+    /* border: 2px solid #635959; */
+    box-shadow: none;
+    border: 1px solid #0000001f;
+    color: #0000007d;
+}
+.edit-pro-btn:hover
+{
+    background: #ddd;
+    box-shadow: 1px 2px 3px #00000035;
+}
+.edit-education-btn:hover
+{
+    background: #4c4949;
+}
+.edit-education-btn {
+   float: right;
+    height: 35px;
+    border-radius: 13px;
+    background: #eee;
+    /* border: 2px solid #635959; */
+    box-shadow: none;
+    border: 1px solid #0000001f;
+    color: #0000007d;
+}
+.edit-hobbie-btn:hover
+{
+    background: #ddd;
+    box-shadow: 1px 2px 3px #00000035;
+}
+.edit-hobbie-btn {
+      float: right;
+    height: 35px;
+    border-radius: 13px;
+    background: #eee;
+    /* border: 2px solid #635959; */
+    box-shadow: none;
+    border: 1px solid #0000001f;
+    color: #0000007d;
+}
+/*.profileDetails-area {
+   max-width: 1730px;
+    margin: 0 auto;
+    background: #eeeeee !important;
+    position: relative !important;
+    top: 60px;
+    padding: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}*/
+.totalData ul li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+.about-name-title
+{
+    text-transform: capitalize;
+}
+.col.s12.m12.profile_quickLinks {
+    padding-left: 0;
+}
+.profile_quickLinks ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
+/*RecentPost area*/
+.postBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+    margin-bottom: 25px;
+}
+.postProfile {
+    position: relative;
+    top: 0;
+       height: 85px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.postProfile img{
+    position: relative;
+    top: 0;
+    
+    height: auto;
+    width: auto;
+}
+.postContent {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: justify;
+    min-height: 119px;
+}
+.recentPostBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+}
+.col.s6.m4.recentBox img {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.title h5{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: #002a43;
+    margin-bottom: 15px;
+}
+.commentsBox {
+  	padding-top: 15px;
+}
+.postProfile.row h5 {
+    color: #002a43;
+}
+/* ---------------personal info css--------------*/
+.title h5 {
+    text-transform:  capitalize;
+    font-size: 23px;
+}
+.personal-box {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.personal-left-title {
+    font-size:  15px;
+    font-weight:  bold;
+    color: #000000ab;
+    text-transform:  capitalize;
+}
+.personal-right-title {
+    color: #736b6b;
+    text-transform: capitalize;
+}
+.other-social a {
+    width:  100%;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+a.waves-effect.waves-light.btn.other-social-fb {
+    background: #2f5b9d;
+    font-size: 14px;
+}
+a.waves-effect.waves-light.btn.other-social-twitter {
+    background:  #38bff1;
+    font-size: 14px;
+}
+a.waves-effect.waves-light.btn.other-social-dribble {
+    background:  #f74881;
+    font-size: 14px;
+}
+
+i.social-icon {
+    padding-right:  10px;
+    font-size: 15px;
+}
+.other-title {
+    font-size:  16px;
+    font-weight:  bold;
+    text-transform:  capitalize;
+    padding-top: 20px;
+}
+/*-----------------hobby and interest css------------------*/
+.Hobbies-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000ab;
+    text-transform: capitalize;
+    font-weight:  bold;
+}
+/*--------------------------education emploayee css-------------*/
+.education-date {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #000000a6;
+}

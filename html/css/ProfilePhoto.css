@@ -1,0 +1,231 @@
+/*ProfileDashboard Global Css*/
+body{
+	background: #eee;
+	height: 100vh;
+}
+.main{
+	background: #eee;
+}
+.max-width {
+    max-width: 1280px;
+    margin: 0 auto;
+    background: #eee;
+}
+
+/*Profile backgrounf images*/
+.parallax-container{
+	z-index: 0;
+}
+.profileBackground img {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    position: relative;
+}
+img.responsive-img.profile_photo {
+       display: block;
+    position: relative;
+    height: 282px;
+    padding: 42px 50px;
+    border-radius: 170px;
+    width: 69px !important;
+    /* object-fit: contain; */
+    /* object-fit: contain; */
+    /*display: block;
+    position: relative;
+    height: 200px;
+    object-fit: contain;*/
+}
+.edit-pro-btn {
+    float: right;
+    height: 35px;
+    border-radius: 13px;
+    background: #ada9a9;
+    /* border: 2px solid #635959; */
+}
+.edit-hobbie-btn {
+    float: right;
+    height: 35px;
+    border-radius: 13px;
+    background: #ada9a9;
+    /* border: 2px solid #635959; */
+}
+.profileDetails-area {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #ffffffa9 !important;
+    position: relative !important;
+    top: 23vh;
+    padding: 25px;
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.totalData ul li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    margin-right: 5px;
+}
+.about-name-title
+{
+    text-transform: capitalize;
+}
+.col.s12.m12.profile_quickLinks {
+    padding-left: 0;
+}
+.profile_quickLinks ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.profile_quickLinks ul li a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #000;
+}
+
+
+
+/*RecentPost area*/
+.postBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+    margin-bottom: 25px;
+}
+.postProfile {
+    position: relative;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.postProfile img{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: auto;
+}
+.postContent {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: justify;
+    min-height: 119px;
+}
+.recentPostBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+}
+.col.s6.m4.recentBox img {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.title h5{
+	border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: #002a43;
+    margin-bottom: 15px;
+}
+.commentsBox {
+  	padding-top: 15px;
+}
+.postProfile.row h5 {
+    color: #002a43;
+}
+/* ---------------personal info css--------------*/
+.title h5 {
+    text-transform:  capitalize;
+    font-size: 23px;
+}
+.personal-box {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.personal-left-title {
+    font-size:  15px;
+    font-weight:  bold;
+    color: #000000ab;
+    text-transform:  capitalize;
+}
+.personal-right-title {
+    color: #736b6b;
+    text-transform: capitalize;
+}
+.other-social a {
+    width:  100%;
+    margin-bottom: 0px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+a.waves-effect.waves-light.btn.other-social-fb {
+    background: #2f5b9d;
+    font-size: 14px;
+}
+a.waves-effect.waves-light.btn.other-social-twitter {
+    background:  #38bff1;
+    font-size: 14px;
+}
+a.waves-effect.waves-light.btn.other-social-dribble {
+    background:  #f74881;
+    font-size: 14px;
+}
+
+i.social-icon {
+    padding-right:  10px;
+    font-size: 15px;
+}
+.other-title {
+    font-size:  16px;
+    font-weight:  bold;
+    text-transform:  capitalize;
+    padding-top: 20px;
+}
+/*-----------------hobby and interest css------------------*/
+.Hobbies-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000ab;
+    text-transform: capitalize;
+    font-weight:  bold;
+}
+/*--------------------------education emploayee css-------------*/
+.education-date {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #000000a6;
+}
+/**/
+.comment-img.initialized {
+    width: 100%;
+        object-fit: cover;
+}
+
+.img-box {
+  padding: 0px;
+    box-shadow: 0px 1px 3px #0000004f;
+}
+
+.comment-icon {
+    text-align:  center;
+}
+
+.comment-area {
+    background:  #fff;
+    padding-top: 17px;
+    padding-bottom: 1px;
+}
+.media-container {
+       max-width: 1280px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    object-fit: cover;
+}
+.post-img-box {
+    margin-bottom: 27px;
+}

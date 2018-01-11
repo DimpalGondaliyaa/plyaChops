@@ -1,0 +1,115 @@
+/*body{
+    background: #002A43 !important;
+}*/
+img.responsive-img.profile_photo {
+    display: block;
+    position: relative;
+    height: 200px;
+    object-fit: contain;
+}
+.point-list-box {
+    background:  #fff;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.point-list-title {
+    font-size:  14px;
+    text-transform:  capitalize;
+    color: #635b5b;
+}
+
+.totole-point-list {
+    font-size: 23px;
+}
+.totole-point-list
+{
+	font-size: 25px;
+    /* padding-left: 12px; */
+    text-transform: capitalize;
+    /* color: #e21d07ed; */
+}
+.main {
+    background: #eee;
+    width: 1280px;
+    margin: 0 auto;
+}
+span.totle-point {
+    font-size: 14px;
+    padding-left: 5px;
+       color: #0999e0;
+}
+/*--------------------line chart---------------------*/
+.yearly-degites {
+    font-size: 37px;
+}
+
+.totle-like {
+    text-transform:  capitalize;
+    font-weight:  500;
+}
+
+.specific-year {
+    text-transform:  capitalize;
+    color:  grey;
+}
+.yearly-box {
+    text-align: center;
+}
+
+
+
+
+
+.pointDashboard {
+    padding: 25px;
+    position: relative;
+}
+.pointDashboardBox {
+    padding: 25px;
+    max-width: 1280px;
+       background: #23475c66;
+    margin: 0 auto;
+    position: relative;
+    border: 2px solid #dddddd42;
+}
+.profileBox {
+    text-align: center;
+    position: relative;
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+.profile_img img {
+    width: 125px;
+}
+.likes{
+    position: relative;
+    padding: 5px;
+}
+.likes {
+    position: relative;
+    padding: 5px;
+    color: #576e80e3;
+    font-weight: 500;
+} 
+.likes span {
+    display: inline-block;
+    padding: 5px;
+}
+.name {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 5px 0px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 5px;
+    color: #888;
+}
+.rank {
+    background: #eee;
+    padding: 5px;
+    border-radius: 50px;
+    border: 2px solid #ddd;
+    color: #0a304e;
+    text-align: center;
+}

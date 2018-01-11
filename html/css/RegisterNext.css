@@ -1,0 +1,94 @@
+
+
+body {
+    /* margin: 0; */
+}
+.right-side-title {
+    text-align:  center;
+    position:  relative;
+    top: 400px;
+    font-size: 45px;
+    text-transform:  capitalize;
+    color: #fff;
+}
+
+span.chops {
+    font-weight:  bold;
+    color:  orange;
+}
+span.teearm a {
+    color: orange;
+}
+
+span.bold-text {
+    font-weight: bold;
+}
+.login-card {
+    text-align:  center;
+}
+.registerBox {
+    width:  70%;
+    margin:  0 auto;
+    position:  relative;
+    top: 150px;
+}
+
+.login-img {
+    text-align:  center;
+}
+.login-parallax
+{
+position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.title h5 {
+    text-align:  center;
+    padding-top: 25px;
+        text-transform: capitalize;
+    font-size: 27px;
+}
+.card-panel.login-panel {
+       border: 2px solid #34bfa3;
+    width: 92%;
+    margin: 0 auto;
+    padding: 10px;
+        margin-top: 20px;
+}
+.login-title {
+    text-transform:  capitalize;
+    font-size: 24px;
+    text-align:  center;
+}
+.hobb-btn {
+    padding-top: 18px;
+    width: 50%;
+    background: orange;
+    margin: 0 auto;
+    padding: 25px 18px;
+    border-radius: 40px;
+    line-height: 2px;
+}
+.regin {
+    text-align:  center;
+    margin-top: 28px;
+}
+.user_login {
+    background:  orange;
+    border-radius: 100px;
+    padding:  25px 40px;
+    line-height:  3px;
+    font-size: 19px;
+}
+.btn-upload {
+    background: #fb9108d1;
+    color: #000;
+    border: 2px solid #cacaca54;
+}
+.btn-upload:hover {
+    background: #fb9017;
+    color: #000;
+    border: 2px solid #cacaca54;
+}
+

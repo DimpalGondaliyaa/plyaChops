@@ -1,0 +1,331 @@
+/*body{
+	background: #002A43;
+
+    font-family: 'Open Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+}*/
+body{
+    font-family: 'Raleway', sans-serif;
+   /* background: linear-gradient(180deg, #0e053194,rgb(0, 42, 67)) !important;*/
+    height: 100vh;
+    
+}
+nav{
+	background-color: #002A43 !important;
+}
+nav .nav-wrapper{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+
+/*top Header area*/
+
+.profileDetails-area {
+    max-width: 1600px;
+    margin: 0 auto;
+    /*background: linear-gradient(50deg, #f3f3f3,#d3d7d9 50%, #f3f3f3 100%);*/
+    background: linear-gradient(50deg, #002a43,#002a43d9 50%,#002a43 100%);
+    position: relative !important;
+    margin-top: 25px;
+    padding: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 1px 3px #0000004d;
+}
+.friendRow.col.s12.m12 {
+    background: linear-gradient(60deg,#dfdfdf66,#cdd5da,#f1f1f1);
+    margin-bottom: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px #00000080;
+}
+/*.profileDetails-area{
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #ffffff !important;
+    position: relative !important;
+    margin-top: 25px;
+    padding: 25px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}*/
+img.responsive-img.profile_photo {
+    display: block;
+    bottom: 50px;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 153px;
+    left: 50px;
+    top: 50px;
+    right: 50px;
+    object-fit: cover;
+    border: 2px solid #ffffff1a;
+    padding: 5px;
+    box-shadow: 0px 2px 5px #0000006b;
+}
+.about-name-title
+{
+    background: -webkit-linear-gradient(top,#ffffffab,#cacaca);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.total_post h5 {
+    color: #949494;
+}
+.total_post p {
+    color: #949494;
+}
+.profile_followers h5{
+    color: #949494;   
+}
+.profile_followers p{
+    color: #949494;   
+}
+.profile_followig h5{
+    color: #949494;      
+}
+.profile_followig p{
+    color: #949494;      
+}
+.post_img img {
+    width: 100%;
+}
+
+.profile_quickLinks ul li a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #ffffff70;
+}
+
+.profile_quickLinks ul li a:hover,.profile_quickLinks ul li a:focus,.profile_quickLinks ul li a.active {
+    color: #ffffffbf;
+}
+
+
+
+/*end header area*/
+
+.PostContainer {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.commentsBox {
+    padding-top: 15px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*.total_post h5 {
+    border: 1px solid #dddddd63;
+    border-radius:  50px;
+    height:  50px;
+    min-width:  50px;
+    line-height:  45px;
+    box-shadow: 0px 2px 3px #0000002b;
+    background: linear-gradient(3deg,#104261,#00446d9e);
+    color:  #fff;
+}*/
+
+
+button.btn.btn-flat.blue-text.statusPostBtn {
+    border: 1px solid;
+}
+button.btn.btn-flat.blue-text.statusPostBtn:hover,button.btn.btn-flat.blue-text.statusPostBtn.active {
+    border: 1px solid #2196f3;
+    background: #2196f3 !important;
+    color: #fff !important;
+}
+
+button.btn.btn-flat.blue-text.mediaPostBtn{
+    border: 1px solid #2196f3;
+}
+button.btn.btn-flat.blue-text.mediaPostBtn:hover,button.btn.btn-flat.blue-text.mediaPostBtn.active{
+    border: 1px solid #2196f3;
+    background: #2196f3 !important;
+    color: #fff !important;   
+}
+button.btn.btn-flat.blue-text.locationPostBtn{
+    border: 1px solid #2196f3;
+}
+button.btn.btn-flat.blue-text.locationPostBtn:hover,button.btn.btn-flat.blue-text.locationPostBtn.active{
+    border: 1px solid #2196f3;
+    background: #2196f3 !important;
+    color: #fff !important;   
+}
+
+
+/*RecentPost area*/
+.postBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+    margin-bottom: 25px;
+}
+.postProfile {
+    position: relative;
+    top: 0;
+    height: 60px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+.postProfile img{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: auto;
+}
+.postContent {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    text-align: justify;
+}
+.recentPostBox {
+    background: #fff;
+    padding: 25px;
+    box-shadow: 0px 1px 3px #0000004f;
+    position: relative;
+}
+.col.s6.m4.recentBox img {
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.title h5{
+	/*border-bottom: 1px solid #ddd;*/
+    padding-bottom: 15px;
+    color: #002a43;
+    margin-bottom: 15px;
+}
+.commentsBox {
+  	padding-top: 15px;
+}
+.postProfile.row span {
+    color: #002a43;
+    margin-bottom: 0px; 
+    margin-top: 0px;
+    font-size: 16px;
+}
+/*shareLink*/
+.postProfile.row span.shareLink {
+    color: #aaa;
+    position: relative;
+    padding: 5px;
+}
+.postProfile.row span.SharedLink {
+    color: #0070ff;
+}
+
+
+/*======================= PostBox Area Disign =============================*/
+/*like Button*/
+
+.like-container{filter: url('#filter');}
+.like-cnt{  
+       position: relative;
+    cursor: pointer;
+    /* left: 50%; */
+    /* top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    background: rgb(175, 177, 179);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    z-index: 10;
+}
+.like-btn{
+  color: #fff;
+}
+
+.gp-header{font-family: georgia; font-size: 40px; color: #ddca7e; font-style: italic; text-align: center; margin-top: 31px;}
+.gp-footer{position: fixed; color: #fff; bottom: 10px; left: 50%; font-family: georgia; font-style: italic; transform: translateX(-50%);}
+.gp-footer .soc_icons{display: inline-block; color: #ddca7e; margin: 0px 0px;}
+
+
+::-moz-selection { background: transparent;}
+::selection {background: transparent;}
+
+
+
+
+
+.likeValue{
+        position: absolute;
+    left: 45px;
+    float: left;
+    top: -5px;
+    color: #006dbb;
+    font-weight: 500;
+}
+}
+
+
+
+
+
+
+
+
+/*Ratting area*/
+.rating {
+    float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+   /*  position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0); */
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+    text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+    text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+    text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
