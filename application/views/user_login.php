@@ -41,7 +41,7 @@
               </div>
 
         <div class="input-field col s12 center">
-          <p class="center">Don't have an account yet ? <a href="<?php echo base_url(); ?>user_register"> Sign up. </a></p>
+          <p class="center">Don't have an account yet ? <a href="<?php echo base_url() ?>User_register"> Sign up. </a></p>
         </div>
       </div>
     </form>
